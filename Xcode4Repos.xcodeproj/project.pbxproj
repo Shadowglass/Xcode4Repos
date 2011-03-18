@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7EF2C711332E08C001CE4DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF2C701332E08C001CE4DC /* UIKit.framework */; };
+		C7EF2C731332E08C001CE4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF2C721332E08C001CE4DC /* Foundation.framework */; };
+		C7EF2C751332E08C001CE4DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF2C741332E08C001CE4DC /* CoreGraphics.framework */; };
+		C7EF2C7B1332E08C001CE4DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7EF2C791332E08C001CE4DC /* InfoPlist.strings */; };
+		C7EF2C7E1332E08C001CE4DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF2C7D1332E08C001CE4DC /* main.m */; };
+		C7EF2C811332E08C001CE4DC /* Xcode4ReposAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF2C801332E08C001CE4DC /* Xcode4ReposAppDelegate.m */; };
+		C7EF2C841332E08C001CE4DC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EF2C821332E08C001CE4DC /* MainWindow.xib */; };
+		C7EF2C871332E08C001CE4DC /* Xcode4ReposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EF2C861332E08C001CE4DC /* Xcode4ReposViewController.m */; };
+		C7EF2C8A1332E08C001CE4DC /* Xcode4ReposViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7EF2C881332E08C001CE4DC /* Xcode4ReposViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7EF2C6C1332E08C001CE4DC /* Xcode4Repos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xcode4Repos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF2C701332E08C001CE4DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7EF2C721332E08C001CE4DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7EF2C741332E08C001CE4DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7EF2C781332E08C001CE4DC /* Xcode4Repos-Info.plist */ = {isa = PBXFileReference; path = "Xcode4Repos-Info.plist"; sourceTree = "<group>"; };
+		C7EF2C7A1332E08C001CE4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7EF2C7C1332E08C001CE4DC /* Xcode4Repos-Prefix.pch */ = {isa = PBXFileReference; path = "Xcode4Repos-Prefix.pch"; sourceTree = "<group>"; };
+		C7EF2C7D1332E08C001CE4DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7EF2C7F1332E08C001CE4DC /* Xcode4ReposAppDelegate.h */ = {isa = PBXFileReference; path = Xcode4ReposAppDelegate.h; sourceTree = "<group>"; };
+		C7EF2C801332E08C001CE4DC /* Xcode4ReposAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode4ReposAppDelegate.m; sourceTree = "<group>"; };
+		C7EF2C831332E08C001CE4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C7EF2C851332E08C001CE4DC /* Xcode4ReposViewController.h */ = {isa = PBXFileReference; path = Xcode4ReposViewController.h; sourceTree = "<group>"; };
+		C7EF2C861332E08C001CE4DC /* Xcode4ReposViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode4ReposViewController.m; sourceTree = "<group>"; };
+		C7EF2C891332E08C001CE4DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Xcode4ReposViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EF2C691332E08C001CE4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF2C711332E08C001CE4DC /* UIKit.framework in Frameworks */,
+				C7EF2C731332E08C001CE4DC /* Foundation.framework in Frameworks */,
+				C7EF2C751332E08C001CE4DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7EF2C611332E08C001CE4DC = {
+			isa = PBXGroup;
+			children = (
+				C7EF2C761332E08C001CE4DC /* Xcode4Repos */,
+				C7EF2C6F1332E08C001CE4DC /* Frameworks */,
+				C7EF2C6D1332E08C001CE4DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EF2C6D1332E08C001CE4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF2C6C1332E08C001CE4DC /* Xcode4Repos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EF2C6F1332E08C001CE4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF2C701332E08C001CE4DC /* UIKit.framework */,
+				C7EF2C721332E08C001CE4DC /* Foundation.framework */,
+				C7EF2C741332E08C001CE4DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7EF2C761332E08C001CE4DC /* Xcode4Repos */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF2C7F1332E08C001CE4DC /* Xcode4ReposAppDelegate.h */,
+				C7EF2C801332E08C001CE4DC /* Xcode4ReposAppDelegate.m */,
+				C7EF2C821332E08C001CE4DC /* MainWindow.xib */,
+				C7EF2C851332E08C001CE4DC /* Xcode4ReposViewController.h */,
+				C7EF2C861332E08C001CE4DC /* Xcode4ReposViewController.m */,
+				C7EF2C881332E08C001CE4DC /* Xcode4ReposViewController.xib */,
+				C7EF2C771332E08C001CE4DC /* Supporting Files */,
+			);
+			path = Xcode4Repos;
+			sourceTree = "<group>";
+		};
+		C7EF2C771332E08C001CE4DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF2C781332E08C001CE4DC /* Xcode4Repos-Info.plist */,
+				C7EF2C791332E08C001CE4DC /* InfoPlist.strings */,
+				C7EF2C7C1332E08C001CE4DC /* Xcode4Repos-Prefix.pch */,
+				C7EF2C7D1332E08C001CE4DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EF2C6B1332E08C001CE4DC /* Xcode4Repos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EF2C8D1332E08C001CE4DC /* Build configuration list for PBXNativeTarget "Xcode4Repos" */;
+			buildPhases = (
+				C7EF2C681332E08C001CE4DC /* Sources */,
+				C7EF2C691332E08C001CE4DC /* Frameworks */,
+				C7EF2C6A1332E08C001CE4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xcode4Repos;
+			productName = Xcode4Repos;
+			productReference = C7EF2C6C1332E08C001CE4DC /* Xcode4Repos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EF2C631332E08C001CE4DC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C7EF2C661332E08C001CE4DC /* Build configuration list for PBXProject "Xcode4Repos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7EF2C611332E08C001CE4DC;
+			productRefGroup = C7EF2C6D1332E08C001CE4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EF2C6B1332E08C001CE4DC /* Xcode4Repos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EF2C6A1332E08C001CE4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF2C7B1332E08C001CE4DC /* InfoPlist.strings in Resources */,
+				C7EF2C841332E08C001CE4DC /* MainWindow.xib in Resources */,
+				C7EF2C8A1332E08C001CE4DC /* Xcode4ReposViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EF2C681332E08C001CE4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF2C7E1332E08C001CE4DC /* main.m in Sources */,
+				C7EF2C811332E08C001CE4DC /* Xcode4ReposAppDelegate.m in Sources */,
+				C7EF2C871332E08C001CE4DC /* Xcode4ReposViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EF2C791332E08C001CE4DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF2C7A1332E08C001CE4DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7EF2C821332E08C001CE4DC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF2C831332E08C001CE4DC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C7EF2C881332E08C001CE4DC /* Xcode4ReposViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EF2C891332E08C001CE4DC /* en */,
+			);
+			name = Xcode4ReposViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EF2C8B1332E08C001CE4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7EF2C8C1332E08C001CE4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C7EF2C8E1332E08C001CE4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xcode4Repos/Xcode4Repos-Prefix.pch";
+				INFOPLIST_FILE = "Xcode4Repos/Xcode4Repos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7EF2C8F1332E08C001CE4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xcode4Repos/Xcode4Repos-Prefix.pch";
+				INFOPLIST_FILE = "Xcode4Repos/Xcode4Repos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EF2C661332E08C001CE4DC /* Build configuration list for PBXProject "Xcode4Repos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF2C8B1332E08C001CE4DC /* Debug */,
+				C7EF2C8C1332E08C001CE4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EF2C8D1332E08C001CE4DC /* Build configuration list for PBXNativeTarget "Xcode4Repos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF2C8E1332E08C001CE4DC /* Debug */,
+				C7EF2C8F1332E08C001CE4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EF2C631332E08C001CE4DC /* Project object */;
+}
